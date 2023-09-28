@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/b8a08ceff3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="topo shadow-sm">
+        <div class="container">           
+            <nav class="navbar navbar-light border-body d-md-none">
+                <div class="container-fluid justify-content-end">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+            </nav>
+            <div class="d-none d-md-block">
+            <nav class="nav justify-content-end">
+                <a class="nav-link " href="#">Página Inicial</a>
+                <a class="nav-link " href="https://litosipaiva.github.io/projeto-sobremim/">Sobre mim</a>
+                <a class="nav-link" href="https://litosipaiva.github.io/curriculo/">Meu Currículo</a>
+                <a class="nav-link" href="#">Meus Projetos</a>
+            </nav>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="collapse" id="menuMobile">
+            <nav class="nav flex-column justify-content-end">
+                <a class="nav-link " href="#">Página Inicial</a>
+                <a class="nav-link" href="https://litosipaiva.github.io/projeto-sobremim/">Sobre mim</a>
+                <a class="nav-link" href="https://litosipaiva.github.io/curriculo/">Meu Currículo</a>
+                <a class="nav-link" href="#">Meus Projetos</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banner-topo"> 
+        <div class="container">
+            <form class="form-l" action="https://formsubmit.co/lidia_tosi@hotmail.com.com" method="POST">
+                <div class="col-8">
+                <div>
+                    <label class="form-label">Seu Nome</label>
+                    <input class="form-control" type="text" name="nome" class="form-control" required>
+                </div>
+                <div>
+                    <label class="form-label">Seu E-mail</label>
+                    <input class="form-control" type="email" name="email" class="form-control" required>
+                </div><div>
+                    <label class="form-label">Sua Mensagem</label>
+                    <textarea class="form-control" name="mensagem" rows="3" class="form-control" required>
+                    </textarea>
+                </div>
+                </div>
+                <button type="submit" class="btn button btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+    <footer class="end">
+        <div class="container">
+            <p>Criado por Lidia Tosi Paiva <br>em Setembro de 2023 para Elas Na Tech</p>
+        </div>
+    </footer>
+</body>
+</html>
